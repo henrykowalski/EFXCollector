@@ -13,6 +13,8 @@
 		FE3B6BE61EB153FE003AB6AE /* EFXCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE3B6BE41EB153FE003AB6AE /* EFXCollector.xcdatamodeld */; };
 		FE3B6BE81EB153FE003AB6AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3B6BE71EB153FE003AB6AE /* Assets.xcassets */; };
 		FE3B6BEB1EB153FE003AB6AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3B6BE91EB153FE003AB6AE /* LaunchScreen.storyboard */; };
+		FE3B6BF31EB3C6EC003AB6AE /* efx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE3B6BF21EB3C6EC003AB6AE /* efx.jpg */; };
+		FE3B6BF51EB3C96E003AB6AE /* EFXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B6BF41EB3C96E003AB6AE /* EFXViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FE3B6BE71EB153FE003AB6AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE3B6BEA1EB153FE003AB6AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE3B6BEC1EB153FE003AB6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3B6BF21EB3C6EC003AB6AE /* efx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = efx.jpg; path = ../../../../Downloads/efx.jpg; sourceTree = "<group>"; };
+		FE3B6BF41EB3C96E003AB6AE /* EFXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EFXViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		FE3B6BDC1EB153FE003AB6AE /* EFXCollector */ = {
 			isa = PBXGroup;
 			children = (
+				FE3B6BF21EB3C6EC003AB6AE /* efx.jpg */,
 				FE3B6BDD1EB153FE003AB6AE /* AppDelegate.swift */,
 				FE3B6BDF1EB153FE003AB6AE /* ViewController.swift */,
 				FE3B6BE11EB153FE003AB6AE /* Main.storyboard */,
+				FE3B6BF41EB3C96E003AB6AE /* EFXViewController.swift */,
 				FE3B6BE71EB153FE003AB6AE /* Assets.xcassets */,
 				FE3B6BE91EB153FE003AB6AE /* LaunchScreen.storyboard */,
 				FE3B6BEC1EB153FE003AB6AE /* Info.plist */,
@@ -127,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE3B6BEB1EB153FE003AB6AE /* LaunchScreen.storyboard in Resources */,
+				FE3B6BF31EB3C6EC003AB6AE /* efx.jpg in Resources */,
 				FE3B6BE81EB153FE003AB6AE /* Assets.xcassets in Resources */,
 				FE3B6BE31EB153FE003AB6AE /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE3B6BF51EB3C96E003AB6AE /* EFXViewController.swift in Sources */,
 				FE3B6BE01EB153FE003AB6AE /* ViewController.swift in Sources */,
 				FE3B6BE61EB153FE003AB6AE /* EFXCollector.xcdatamodeld in Sources */,
 				FE3B6BDE1EB153FE003AB6AE /* AppDelegate.swift in Sources */,
