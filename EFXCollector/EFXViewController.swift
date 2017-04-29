@@ -9,29 +9,37 @@
 
 import UIKit
 
-class EFXViewController: UIViewController {
-
+class EFXViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate  {
+    
     @IBOutlet weak var titleTextField: UITextField!
     
     // Nick to nazval gameImageView:
     @IBOutlet weak var efxImageView: UIImageView!
     
     
+    var imagePicker = UIImagePickerController()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        
+        imagePicker.delegate = self
     }
-
-
-    @IBAction func photosTapped(_ sender: Any) {
     
+    
+    @IBAction func photosTapped(_ sender: Any) {
+        
+        imagePicker.sourceType = .photoLibrary
+        
+        present(imagePicker, animated: true, completion: nil)
+        
     }
     
     @IBAction func cameraTapped(_ sender: Any) {
-        }
-
+    }
+    
     @IBAction func addTapped(_ sender: Any) {
     }
 }
