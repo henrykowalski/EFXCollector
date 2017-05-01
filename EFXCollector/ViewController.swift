@@ -48,5 +48,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let effect = effects[indexPath.row]
+        performSegue(withIdentifier: "effectSegue", sender: effect)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! EFXViewController
+        nextVC.effect = sender as? Effect
+    }
+    
 }
 
